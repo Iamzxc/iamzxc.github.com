@@ -1,0 +1,145 @@
+
+body,ul,li,ol,h1,h2,h3,h4,h5,h6,p,dl,dd,input,select,option,textarea{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+input,img{border: none;}
+.inner{margin: 0 auto; width: 1140px;}
+
+.header{height: 80px;background:rgba(0,178,255,.5);position: fixed;z-index: 2;width: 100%;}
+.header .logo{width: 148px;height: 40px;padding-top: 20px;float: left;}
+.header .logo img{width: 148px;height: 40px;}
+.header ul{float: right;}
+.header li{text-transform: uppercase;float: left;}
+.header a{padding: 0 15px;color: #f7fbff;font-size: 13px;height: 80px;line-height:80px;padding: 0 15px;display: block;}
+.header a:hover{background: #0273a3;}
+
+.banner{height: 100%px;background-size: cover;overflow: hidden;position: relative;text-align: center;}
+.banner img{width: 100%;height: 100%; object-fit: cover;}
+.banner .b_bg{width: 100%;height: 100%;background-color: rgba(0,0,0,.7);position: absolute;top: 0;}
+.banner .b_text{position: absolute;top: 200px;text-align: center;width: 100%;}
+.banner .b_text h2{font-size: 56px;height: 140px;line-height: 103px;color: #d1d1d1;}
+.banner .b_text h2 span{color: #00b2ff;}
+.banner .b_text h4{font-size: 17px;height: 50px;line-height: 50px;font-weight: normal;color: #cbccca;}
+.banner .b_text a{display: block;border: 1px solid #fff;width: 150px;height: 50px;margin: 100px auto;line-height: 50px;color: #fff;border-radius: 5px;transition: all 1s;}
+.banner .b_text a:hover{background-color:#00b2ff;}
+
+.Services{height: 1036px;background: #fff;text-align: center;}
+.Services .title{height: 163px;padding-top: 92px;}
+.Services .title h3{height: 72px;line-height: 72px;font-size: 29px;color: #333;}
+.Services .title p{width: 717px;line-height: 24px;font-size: 15px;color: #666;margin: 0 auto;}
+.Services .S_box{width: 1140px;height: 575px;}
+.Services .box{width: 374px;height: 351px;border-bottom: 1px solid #f2f2f2;float: left;text-align: center;}
+.Services .S_icon{width: 90px;height: 90px;background: #028fcc;margin: 28px auto;}
+.Services .S_icon:hover{background: #014664;}
+.Services .S_icon img{width: 29px;height: 30px;margin: 0 auto;padding-top: 32px;}
+.Services .S_icon h4{height: 38px;line-height: 38px;font-size: 17;color: #333;padding-top: 28px;}
+.Services .box .S_icon p{line-height: 24px;width: 336px;font-size: 15px;color: #666;}
+
+.Aboutus{height: 700px;width: 100%;background: url(../images/about-bg.jpg) fixed no-repeat top center;background-size: cover;}
+.Aboutus .A_left{width: 585px;float: left;padding-top: 100px;}
+.Aboutus .A_left h3{line-height: 73px;height: 73px;color: #fdfdfd;font-size: 29px;padding-top: 41px;}
+.Aboutus .A_left p{line-height: 24px;color: #fff;font-size: 15px;width: 547px;}
+.Aboutus .A_left .A_p{padding-top: 10px;}
+.Aboutus .A_right{float: left;padding-top: 130px;}
+.Aboutus .A_right h3{line-height: 36px;height: 36px;font-size: 16px;padding-top: 21px;color: #fff;font-weight: normal;}
+.Aboutus .A_right .A_h3{padding-top: 35px;}
+.Aboutus .A_right .A_pic{width: 554px;height: 20px;}
+.Aboutus .A_right .A_pic img{width: 554px;height: 20px;}
+
+.Text{height: 330px;background-color: fff;text-align: center;}
+.Text h3{line-height: 36px;height: 36px;font-size: 29px;padding-top: 21px;color: #333;font-weight: normal;}
+.Text p{line-height: 24px;color: #9E9E9E;font-size: 15px;padding-top: 20px;}
+
+.Portfolio{height: 1084px;text-align: center;background: url(../images/about-bg.jpg) fixed no-repeat top center;background-size: cover;}
+.Portfolio h2{line-height: 71px;height: 71px;font-size: 29px;color: #fff;padding-top: 93px;}
+.Portfolio p{line-height: 24px;font-size: 15px;color: #fff;width: 717px;margin: 0 auto;padding-bottom: 99px;}
+.Portfolio .PIC{width: 1440px;height: 560px;margin: 0 auto;}
+.Portfolio .P_pic{width: 350px;height: 280px; float: left;position: relative;border: 5px solid #f2f2f2;margin-bottom: 20px;transition: all 1s;overflow: hidden;}
+.Portfolio .P_pic:hover{border: 5px solid #028fcc;overflow: hidden;transform: scale(1.2);}
+.Portfolio .P_pic img{width: 350;height: 280px;}
+.Portfolio .P_pic a{position: absolute;top: 0;left: 0; width: 100%;height: 100%;background: rgba(0,0,0,.5);display: none;overflow: hidden;}
+.Portfolio .P_pic:hover a{display: block;background: rgba(0,0,0,.5);color: #fff;line-height: 280px;text-align: center;}
+
+.Team{height: 930px;background-color: #fff;text-align: center;}
+.Team h2{line-height: 71px;height: 71px;font-size: 29px;color: #333;padding-top: 93px;}
+.Team p{line-height: 24px;font-size: 15px;color: #666;width: 717px;margin: 0 auto;padding-bottom: 99px;}
+.Team .T_box{width: 263px;float: left;text-align: center;padding-right: 29px;}
+.Team .T_box_last{padding-right: 0;}
+.Team .T_pic{width: 263px;height: 287px;overflow: hidden;}
+.Team .T_pic img{width: 263px;height: 287;transition: all 1s;}
+.Team .T_pic img:hover{transform: scale(1.2);}
+.Team .T_box h3{height:31px;line-height:31px;color:#333;font-size: 18px;font-weight: normal;padding-top: 30px;}
+.Team .T_box h4{line-height:24px;color: #999;height: 24px;font-size: 18;font-weight: normal;}
+.Team .T_box p{line-height:24px;color: #353535;font-size: 15px;padding-top: 12px;width: 225px;}
+.Team .T_bot{} 
+.Team .T_icon{width: 36px;height: 36px;margin: 0 4px;background: #000000 url(../images/Team_bg_38.jpg);float: left;} 
+.Team .T_icon_first{margin-left: 25px;} 
+.Team .two{background-position: -44px 0;}
+.Team .three{background-position: -88px 0;}
+.Team .four{background-position: -132px 0;}
+.Team .five{background-position: -176px 0;}
+.Team .T_icon:hover{background: url(../images/Team_bg_39.jpg);float: left;} 
+.Team .two:hover{background-position: -44px 0;}
+.Team .three:hover{background-position: -88px 0;}
+.Team .four:hover{background-position: -132px 0;}
+.Team .five:hover{background-position: -176px 0;}
+
+.Bg{height: 300px;background: url(../images/features-bg.jpg) fixed no-repeat top center;background-size: cover;}
+.Bg .Bg_pic{padding-top: 100px;}
+
+.Pricing{height: 762px;text-align: center;}
+.Pricing h2{line-height: 71px;height: 71px;font-size: 29px;color: #333;padding-top: 93px;}
+.Pricing p{line-height: 24px;font-size: 15px;color: #666;width: 717px;margin: 0 auto;padding-bottom: 99px;}
+.Pricing .Pr_box{width: 261px;height: 360px;border: 1px solid #f2f2f2;float: left;margin-right: 29px;text-align: center;transition: all 1s;}
+.Pricing .Pr_box:hover{border: 1px solid #028fcc;}
+.Pricing .last{margin-right: 0px;}
+.Pricing h5{height: 81px;line-height: 81px;color: #6d6d6d;font-size: 17px;}
+.Pricing h6{height: 51px;line-height: 51px;color: #797979;font-size: 15px;}
+.Pricing h6 span{font-size: 34px;color: #028fcc;}
+.Pricing li{font-size: 15px;line-height: 30px;color: #666;}
+.Pricing a{display: block;width: 94px;height: 44px;line-height: 44px; font-size: 15px;color: #028fcc;border: 2px solid #f2f2f2; margin: 0 auto;margin-top: 29px;border-radius: 10px;transition: all 1s;}
+.Pricing a:hover{color: #fff;background: #028fcc;}
+
+.Bg2{height: 500px;background: url(../images/twitter-bg.jpg) fixed no-repeat top center;background-size: cover;text-align: center;}
+.Bg2 .Bg2_pic{width: 64px;height: 69px;padding-top: 80px;margin: 0 auto;}
+.Bg2 .Bg2_pic img{width: 64px;height: 69px;}
+.Bg2 h3{line-height: 71px;height: 71px;color: #fff;font-size: 25px;padding-top: 30px;}
+.Bg2 p{line-height: 23px;height: 23px;color: #fff;font-size: 15px;padding-top: 20px;}
+.Bg2 p span{color: #028fcc;}
+
+.Blog{height: 1358px;text-align: center;border-bottom: 1px solid #4E4E4E;}
+.Blog h2{line-height: 71px;height: 71px;font-size: 29px;color: #333;padding-top: 93px;margin: 0 auto;}
+.Blog p{line-height: 24px;font-size: 15px;color: #666;width: 717px;margin: 0 auto;padding-bottom: 99px;}
+.Blog .Blog_box{height: 524px;width: 1140px;}
+.Blog .B_box{width: 360px;height: 521px;float: left;text-align: left;}
+.Blog .B_cen{padding: 0 30px;}
+.Blog .B_box .B_pic{width: 360px;height: 241px;}
+.Blog .B_box .B_pic img{width: 360px;height: 241px;transition: all 1s;}
+.Blog .B_box .B_pic img:hover{transform:  rotateY(180deg);}
+.Blog .B_box h4{font-size: 17px;font-weight: normal;width: 360px;line-height: 26px;color: #028fcc;padding-top: 30px;}
+.Blog .B_box h5{font-size: 11px;font-weight: normal;text-transform: uppercase;width: 360px; height: 54px;line-height: 54px;color: #666;}
+.Blog .B_hr{width: 20px;height: 3px;background: #028fcc;margin: 4px 0 11px 0;}
+.Blog .B_box .B_p{font-size: 14px;width: 360px;line-height: 21px;color: #909090;}
+.Blog a{display: block;width:350px;height: 50px;line-height: 50px; font-size: 13px;border: 1px solid #f2f2f2;margin: 20px auto;color: #666;border-radius: 15px;transition: all 1s;}
+.Blog a:hover{color: #fff;background: #028fcc;}
+.Blog .B_bg{width: 1140px;height: 300px;color: #909090;background: url(../images/portfolio-details.jpg) fixed center;background-size: cover;}
+.Blog .B_bg h2{color: #fff;}
+
+.Contact{height: 868px;background: url(../images/contact-bg.jpg) fixed no-repeat top center;background-size: cover;margin-top: 100px;text-align: center;}
+.Contact h2{line-height: 71px;height: 71px;font-size: 29px;color: #fff;padding-top: 93px;margin: 0 auto;}
+.Contact p{line-height: 24px;font-size: 15px;color: #fff;width: 717px;margin: 0 auto;padding-bottom: 99px;}
+.Contact .C_form{width: 555px;height: 427px;float: left;}
+.Contact input{width: 248px;height: 48px;border: 1px solid #8b8988;padding-left: 13px;background:rgba(0,0,0,.2);color: #8b8988;border-radius: 15px;margin-right: 10px;}
+.Contact .input_subject{width: 527px;height: 48px;border: 1px solid #8b8988;padding-left: 13px;background:rgba(0,0,0,.2);color: #8b8988;border-radius: 15px;margin-top: 30px;}
+.Contact .input_sub{width: 537px;height: 48px;border: 1px solid #8b8988;padding-left: 13px;background:rgb(2,143,204);color: #fff;border-radius: 15px;margin-top: 40px;}
+.Contact textarea{width: 527px;height: 178px;border: 1px solid #8b8988;padding: 13px 0 0 13px;background:rgba(0,0,0,.2);color: #8b8988;border-radius: 15px;margin-top: 30px;}
+.Contact .C_text{width: 587px;float: left;}
+.Contact .C_text .text_p{font-size: 15px;line-height: 24px;color: #fff;text-align: left;width: 450px;padding-bottom: 0;}
+.Contact ul{padding-top: 5px;}
+.Contact li{line-height: 32px;font-size: 15px;color: #028fcc;text-align: left;padding: 20px 0 0 68px;}
+
+.footer{height: 60px;text-align: center;background-color: rgba(0,0,0,.5);}
+.footer p{color: #fff;line-height: 60px;height: 60px;font-size: 13px;}
+
+.body_bg{position: fixed;top: 400px; right: 20px;text-align: center;}
+.body_bg h5{width: 10px;color: red;font-size: 15px;padding-left: 5px;}
